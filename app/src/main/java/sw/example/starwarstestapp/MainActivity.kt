@@ -190,8 +190,6 @@ fun ItemsSlider(items: List<Any>) {
                     }
                     Button(
                         onClick = {
-                            val intent = Intent(this, Details::class.java)
-                            startActivity(intent);
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = Color.White),
                         shape = RoundedCornerShape(5.dp)
